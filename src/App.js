@@ -1,12 +1,14 @@
 import './App.css';
 import Cart from './components/Cart/Cart';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Sideber from './components/Sideber/Sideber';
 import Work from './Work/Work';
 
 function App() {
   return (
-    <div className='App'>
+    <div>
+        <div className='App'>
         <div>
         <Header></Header> 
         <Work></Work>
@@ -14,6 +16,8 @@ function App() {
         <div>
             <Sideber></Sideber>
         </div>
+        </div>
+        <Footer></Footer>
     </div>
   );
 }
