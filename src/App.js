@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/Header/Header';
+import Sideber from './components/Sideber/Sideber';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         <Header></Header>  
         </div>
         <div>
-            hhh
+            <Sideber></Sideber>
         </div>
     </div>
   );
