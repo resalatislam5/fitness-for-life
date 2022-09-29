@@ -1,0 +1,50 @@
+[
+    {
+      "id": "02871edc-272b-4e20-bcc2-b32681213b3c",
+      "name": "Bench press",
+      "img": "https://st2.depositphotos.com/2389277/9110/i/950/depositphotos_91108826-stock-photo-young-man-doing-bench-press.jpg",
+      "des":"",
+      "age":18,
+      "time":30
+    },
+    {
+      "id": "30698483-f7aa-49ba-9de9-9070f64dc263",
+      "name": "Triceps dip",
+      "img": "https://www.verywellfit.com/thmb/qG0-F62qzeUAx2OvZkvSUi30l_U=/4500x2531/smart/filters:no_upscale()/About-2A15-TricepDips-939-5714508f5f9b588cc271b609.jpg",
+      "des":"",
+      "age":18,
+      "time":30
+    },
+    {
+      "id": "96239c09-8b1c-4c81-99f9-f43e7613eab3",
+      "name": "Incline dumbbell press",
+      "img": "https://cdn.mos.cms.futurecdn.net/LJmAAv5qPJddvbVFQbFUf9-970-80.jpg.webp",
+      "des":"",
+      "age":18,
+      "time":30
+    },
+    {
+      "id": "5b5c43d9-950d-4b9a-b7d9-ca489224a7b2",
+      "name": "Incline dumbbell flye",
+      "img": "https://cdn.mos.cms.futurecdn.net/FfF7ESQXASJMaWU67tyE9J-970-80.jpg.webp",
+      "des":"",
+      "age":18,
+      "time":30
+    },
+    {
+      "id": "afc5d640-9943-437a-b644-ba1f6f12baa9",
+      "name": "Triceps extension",
+      "img": "https://cdn.mos.cms.futurecdn.net/LkoF8dwvTebGZnwB4LhyVR-970-80.jpg.webp",
+      "des":"",
+      "age":18,
+      "time":30
+    },
+    {
+      "id": "e912ad01-2551-48dc-a709-4054cbfbcbbc",
+      "name": "Pull-up",
+      "img": "https://cdn.mos.cms.futurecdn.net/CaxyMj4UKcTbq93KK2AqPe-970-80.jpg.webp",
+      "des":"",
+      "age":18,
+      "time":30
+    }
+  ]
