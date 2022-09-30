@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 const Cart = (props) => {
     const {name, img, age,des, time} = props.cart;
-    const [counter, setCounter] = useState(30);
+    const [counter, setCounter] = useState(time);
 
 
         const handleAddTOList = () =>{
