@@ -36,6 +36,11 @@ const Exercise = () => {
         if(counter === -1){
             clearInterval(setCounter(0))
         }
+        function handleClick() {
+           const aa = document.getElementById("demo").innerText
+           console.log(aa)
+        }
+      
     return (
         <div>
             <Break handleAddTOList={handleAddTOList} handleAddTOList1={handleAddTOList1} handleAddTOList2={handleAddTOList2} handleAddTOList3={handleAddTOList3} handleAddTOList4={handleAddTOList4}></Break>
@@ -44,7 +49,7 @@ const Exercise = () => {
                     <div className='mt-2'>
                         <div className='flex bg-slate-400 justify-between items-center p-2 rounded-lg'>
                             <h4 className='2xl:text-2xl text-xl'>Exercise Details</h4>
-                            <p className='text-gray-300'><span>0</span> seconds</p>
+                            <p className='text-gray-300'><span  id='demo'>0 </span> seconds</p>
                         </div>
                         <div className='flex bg-slate-400 justify-between items-center p-2 rounded-lg mt-2'>
                             <h4 className='2xl:text-2xl text-xl'>Break time</h4>

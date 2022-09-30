@@ -4,7 +4,6 @@ const Cart = (props) => {
     const {name, img, age,des, time} = props.cart;
     const [counter, setCounter] = useState(time);
 
-
         const handleAddTOList = () =>{
             setInterval(() => {
                 setCounter(seconds => seconds - 1)
@@ -25,10 +24,10 @@ const Cart = (props) => {
                 <p className='font-bold'>Time required:<span className='font-normal'>{counter}</span></p>
             </div>
             <div className='ml-4 absolute bottom-3'>
-                <button onClick={handleAddTOList} className='w-72  bg-lime-500 text-xl p-2 rounded-xl '>Add to list</button>
+                <button onClick={handleAddTOList}   className='w-72  bg-lime-500 text-xl p-2 rounded-xl '>Add to list</button>
             </div>
         </div>
     );
 };
-
+    
 export default Cart;
