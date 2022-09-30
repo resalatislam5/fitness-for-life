@@ -10,7 +10,7 @@ const Work = () => {
     return (
         <div className='mx-5'>
             <h2 className='text-xl mb-5 font-bold'>Select today's exercise</h2>
-            <div className='grid grid-cols-3 gap-4'>
+            <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4'>
                 {
                     gym.map(item => <Cart cart={item} key={item.id}></Cart>)
                 }
